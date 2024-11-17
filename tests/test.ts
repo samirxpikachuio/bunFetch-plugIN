@@ -1,4 +1,4 @@
-import ResponseHelper from 'bun-fetch-helper';
+import ResponseHelper from 'bunFetch-PlugIN';
 
 const responseHelper = new ResponseHelper();
 
@@ -6,5 +6,4 @@ const responseHelper = new ResponseHelper();
 export default {
     fetch(request: Request): Response {
             return responseHelper.html('<h1>Hello, Bun!</h1>');
-                }
-                };
+    }};
