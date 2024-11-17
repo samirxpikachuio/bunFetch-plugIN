@@ -1,4 +1,4 @@
-import ResponseHelper from 'bunFetch-PlugIN';
+import ResponseHelper from 'bunFetchPlugIN';
 
 const responseHelper = new ResponseHelper();
 

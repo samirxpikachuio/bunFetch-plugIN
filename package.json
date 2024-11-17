@@ -1,5 +1,5 @@
 {
-  "name": "bunFetch-PlugIN",                     
+  "name": "bunFetchPlugIN",                     
   "version": "1.0.0",                            
   "description": "A plugin for enhanced Bun fetch response handling.", 
   "main": "index.ts",                            
