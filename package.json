@@ -1,11 +1,41 @@
 {
-  "name": "bunFetch-PlugIN",
-  "module": "index.ts",
-  "type": "module",
+  "name": "bunFetch-PlugIN",                     
+  "version": "1.0.0",                            
+  "description": "A plugin for enhanced Bun fetch response handling.", 
+  "main": "index.ts",                            
+  "types": "index.ts",                           
+  "module": "index.ts",                         
+  "type": "module",                              
+  "author": "Samir Œ",                         
+  "license": "MIT",                              
+  "repository": {                                
+    "type": "git",
+    "url": "https://github.com/yourusername/bunFetch-PlugIN.git"
+  },
+  "keywords": [                                
+    "bun",
+    "fetch",
+    "response-helper",
+    "plugin",
+    "api",
+    "express"
+  ],
+  "scripts": {                                   
+    "build": "tsc",
+    "test": "bun test"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest"                       
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+    "typescript": "^5.0.0"                       
+  },
+  "engines": {                                   
+    "bun": ">=0.7.0",
+    "node": ">=18.0.0"
+  },
+  "files": [                                     
+    "index.ts",
+    "src/"
+  ]
 }
